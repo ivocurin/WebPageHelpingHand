@@ -1,0 +1,205 @@
+.hidden {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Makes it so that the links don't turn purple*/
+a:visited {
+  color: inherit;
+}
+/* Makes it so that the links don't turn purple*/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: white;
+  padding: 15px;
+}
+
+/* HelpingHand in NavBar */
+.logo {
+    
+  background: radial-gradient(circle, #ffffff 30px, #444444);
+  color: #222;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 
+    0 0 6px rgba(255,255,255,0.6),
+    0 0 20px rgba(255,255,255,0.9);
+  cursor: pointer;
+
+}
+/* HelpingHand in NavBar */
+
+/* NavBar osim 'HelpingHand'*/
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  display: inline-block;
+  position: relative;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav ul li a:hover {
+  background: rgba(255,255,255,0.15);
+  transform: scale(1.08);
+}
+
+nav ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  transition: width 0.3s ease;
+  
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+/* NavBar osim 'HelpingHand'*/
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+section {
+  padding: 60px;
+}
+
+#hero {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 100px;
+}
+
+.hero-title {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #4f46e5, #06b6d4);
+  color: white;
+  border-radius: 12px;
+  font-size: 40px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.content-section {
+  opacity: 0;
+  transform: scale(0.95) translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.content-section.visible {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+.content-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #000;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.content-section h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(90deg, #4f46e5, #06b6d4);
+  border-radius: 2px;
+}
+/* Headlines of each NavBar sections*/
+
+footer {
+  margin-top: auto;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #444;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 6px 0;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  background: #e5e7eb;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.footer-links a:hover {
+  background: #4f46e5;
+  color: white;
+  transform: scale(1.05);
+}
+
+.back-to-top,
+.back-to-top:visited {
+  color: #68d9ec;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  color: #68d9ec;
+  text-decoration: underline;
+}
+
+footer .logo {
+  cursor: default;
+  font-size: 14px;
+}
+
+.tech-stack {
+  margin-top: 15px;
+}

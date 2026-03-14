@@ -114,7 +114,25 @@ section {
   padding: 20px;
   margin-bottom: 20px;
   background: #f4f4f4;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;  
 }
+
+/* Project HelpingHand Porftolio Website */
+.project-HelpingHand-link{
+  text-decoration: none;
+  color: inherit;
+  display: block;  
+}
+
+.project-HelpingHand-link:hover {
+  cursor: pointer;
+}
+
+.project-HelpingHand-link:hover .project {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+/* Project HelpingHand Porftolio Website */
 
 /*
 .content-box {

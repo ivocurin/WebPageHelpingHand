@@ -114,7 +114,18 @@ section {
   padding: 20px;
   margin-bottom: 20px;
 }
-
+/*
+.project-helpinghand {
+  background: radial-gradient(circle, #ffffff 30px, #444444);
+  color: #222;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 
+    0 0 6px rgba(255,255,255,0.6),
+    0 0 20px rgba(255,255,255,0.9);  
+}
+*/
 .content-section {
   opacity: 0;
   transform: scale(0.95) translateY(30px);

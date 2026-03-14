@@ -5,9 +5,8 @@ Make 'Hero' have purpose (prva stranica). Make as many different styles
         - make a section appear (with a picture)
 
 About me
-    - Short description
-    - Link to my CV
-    - 
+    - MAYBE link to my CV
+ 
 
 Skills
 
@@ -25,3 +24,4 @@ Contact
 
 
 
+Make Projects hover effect and clickable (link)

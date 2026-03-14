@@ -198,6 +198,7 @@ footer p {
 footer .logo {
   cursor: default;
   font-size: 14px;
+  margin-left: 6px;
 }
 
 .tech-stack {

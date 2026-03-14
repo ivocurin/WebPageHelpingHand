@@ -110,16 +110,20 @@ section {
 }
 
 .project {
-  margin-bottom: 20px;
-}
-
-.content-box {
   border: 1px solid #ccc;
   padding: 20px;
   margin-bottom: 20px;
   background: #f4f4f4;
 }
 
+/*
+.content-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #f4f4f4;
+}
+*/
 /*
 .project-helpinghand {
   background: radial-gradient(circle, #ffffff 30px, #444444);

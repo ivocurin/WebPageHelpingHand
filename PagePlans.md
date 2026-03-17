@@ -1,3 +1,9 @@
+- Update 'Projects' and 'Experience tab when a new project is finished
+- Change GitHub and LinkedIn links
+
+
+
+
 Make 'Hero' have purpose (prva stranica). Make as many different styles
     and actions so people can know what I can do.
     'I can do *this* and *that*, do you want *this thing* or *that thing*'
@@ -23,5 +29,3 @@ Contact
     - Style the data
 
 
-
-Make Projects hover effect and clickable (link)
